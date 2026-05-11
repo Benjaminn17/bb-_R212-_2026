@@ -1,0 +1,7 @@
+rapport TD3 R212
+
+1) Le modèle évènement état rendu est un modèle propre à JS. Pour faire simple, il s'agit du moment où une fonctionnalité/affichage change lorsque l'on réalise une action de notre part (clic, scroll, etc.) et donc ce que cette action va changer dans le CSS. Exemple : cliquer sur une rubrique ou sur l'onglet "catégorie" pour afficher toutes les catégories d'un produit, le CSS va donc faire charger via un menu déroulant toutes les catégories.
+
+2) ClassList.toggle permet de faire une passerelle entre CSS et JS, la partie toggle agit comme un interrupteur et simplifie l'interaction entre les deux langages.
+
+Je n'ai pas utilisé l'IA pendant ce TD3.
