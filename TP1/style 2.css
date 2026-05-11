@@ -1,0 +1,73 @@
+:root {
+  /* Couleurs */
+  --color-primary:#005c08;
+  --color-secondary:#fcefd7;
+  --color-h1:#000000;
+  --color-h2:
+  --color-bg: #ffffff;
+  --color-bg-alt: #f9fafb;
+
+  /* Espacements */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  /* Typographie */
+  --font-base: system-ui, -apple-system, sans-serif;
+  --line-height: 1.6;
+  }
+
+header {
+  background-color: var(--color-primary);
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  font-family: 'calibri', serif;
+  display: flex;
+  column-gap: 20px;
+}
+body {
+      background-color: var(--color-secondary);
+      color: rgb(0, 0, 0);
+      font-family: var(--color-text-light);
+      margin: 0px;
+      text-align: center;
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+a { 
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(190, 255, 241); 
+}
+/* LISTE MENU */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 35px;
+}
+
+section {
+  display: start;
+  clear: both;
+}
+
+/* FOOTER */
+footer {
+  float: center;
+  background-color: #FFD203;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+.trait { /* Définition d'un style simple pour le séparateur 'trait' si non défini dans CSS.css */
+width:100%;
+border:1px solid #FFD203;
+border-top: 1px solid #333; 
+margin: 20px 0;
+}
+
